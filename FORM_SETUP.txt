@@ -1,7 +1,7 @@
 WHIPS URBAN EXECUTIVE - FORM EMAIL SETUP
 
 Booking and contact forms send all named fields to:
-nextedgeinnovations.org@gmail.com
+whipsurbantravels@gmail.com
 
 The forms use FormSubmit.co AJAX and stay on the same page.
 The customer sees a success/error message and is not redirected.
