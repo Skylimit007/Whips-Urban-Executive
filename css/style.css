@@ -470,6 +470,11 @@
     color: #ff0000;
     white-space: nowrap;
 }
+.brand-logo {
+    height: 55px;
+    width: auto;
+    margin-right: 12px;
+}
 
 /* Executives - Montserrat Light */
 .brand-sub {
