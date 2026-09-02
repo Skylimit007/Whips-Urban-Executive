@@ -419,6 +419,86 @@
 .categories-carousel .owl-nav .owl-next {
     right: 0;
 }
+```css
+/* ================================
+   WHIPSURBAN EXECUTIVES BRAND
+   ================================ */
+
+.brand-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.brand-logo img {
+    width: 65px;
+    height: auto;
+    object-fit: contain;
+}
+
+.brand-name {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+}
+.brand-main {
+    font-family: "Audiowide", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #000;
+    white-space: nowrap;
+}
+
+.brand-sub {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    color: #000;
+    margin-top: 6px;
+    margin-left: 2px;
+}
+
+
+/* WhipsUrban - Ethnocentric */
+.brand-main {
+    font-family: "Ethnocentric", sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #ff0000;
+    white-space: nowrap;
+}
+
+/* Executives - Montserrat Light */
+.brand-sub {
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    color: #000;
+    margin-top: 6px;
+    margin-left: 2px;
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .brand-logo img {
+        width: 50px;
+    }
+
+    .brand-main {
+        font-size: 18px;
+    }
+
+    .brand-sub {
+        font-size: 12px;
+        letter-spacing: 3px;
+    }
+}
+```
+
 
 .categories-carousel .owl-nav .owl-prev:hover,
 .categories-carousel .owl-nav .owl-next:hover {
